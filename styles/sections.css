@@ -1,106 +1,102 @@
-section header{
+
+
+
+/* ===== HEADER DAS SECTIONS ===== */
+section header {
     border-top: 1px solid var(--stroke-color);
     padding-block: 12px 24px;
     font: var(--text-span);
 
-    header a {
-        justify-self: end;
-        align-items: center;
-        gap: 8px;
-
-        span {
-            background-image: url(../assets/ArrowRight.svg);
-            width: 16px;
-            height: 16px;
-        }
-
-        &:hover span{
-            background-image: url(../assets/icons/ArrowRight-hover.svg);
-        }
-    }
-
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
 }
 
-#featured{
-    img{
-        height: 100%;
-        object-fit: cover;
-    }
-    
-    .card{
-        border-radius: 4px;
-        overflow: hidden;
-        position: relative;
-        
-        &::before{
-            content: "";
-            position: absolute;
-            inset: 0;
-            top: 50%;
-            background: linear-gradient(
-                180deg, 
-                transparent 0%,
-                #020617 100%
-            );
-        }
+/* link "Ver tudo" */
+section header a {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 8px;
+}
 
-        figcaption{
-            position: absolute;
-            bottom: 0;
+/* seta */
+section header a span {
+    background-image: url(../assets/icons/ArrowRight.svg);
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
-            padding: 24px;
-
-            &:has(.text-lg){
-                padding: 12px;
-            }
-
-            h2{
-                margin-top: 8px;
-            }
-        }
-    }
+/* hover */
+section header a:hover span {
+    background-image: url(../assets/icons/ArrowRight-hover.svg);
 }
 
 
-#weekly{
+/* ===== FEATURED ===== */
+#featured img {
+    height: 100%;
+    object-fit: cover;
+}
 
-    header a {
-        justify-self: end;
-        align-items: center;
-        gap: 8px;
+#featured .card {
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
 
-        span {
-            background-image: url(../assets/ArrowRight.svg);
-            width: 16px;
-            height: 16px;
-        }
+#featured .card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    top: 50%;
+    background: linear-gradient(
+        180deg,
+        transparent 0%,
+        #020617 100%
+    );
+}
 
-        &:hover span{
-            background-image: url(../assets/icons/ArrowRight-hover.svg);
-        }
-    }
+#featured .card figcaption {
+    position: absolute;
+    bottom: 0;
+    padding: 24px;
+}
+
+#featured .card figcaption:has(.text-lg) {
+    padding: 12px;
+}
+
+#featured .card figcaption h2 {
+    margin-top: 8px;
+}
 
 
-    &>div{
-        grid-template-columns: repeat(4, 292px);
-    }
+/* ===== WEEKLY ===== */
+#weekly > div {
+    display: grid;
+    grid-template-columns: repeat(4, 292px);
+    gap: 16px;
+}
 
-    img{
-        height: 160px;
-    }    
+#weekly img {
+    height: 160px;
+}
 
-    figure{
-        position: relative;
+#weekly figure {
+    position: relative;
+}
 
-        .content-tag{
-            position: absolute;
-            top: 8px;
-            left: 8px;
-        }
+#weekly figure .content-tag {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
 
-        p{
-            margin-top: 8px;
-            font-weight: 800;
-        }
-    }
+#weekly figure p {
+    margin-top: 8px;
+    font-weight: 800;
 }
