@@ -74,6 +74,9 @@ section header a:hover span {
     margin-top: 8px;
 }
 
+#featured {
+    grid-area: featured;
+}
 
 /* ===== WEEKLY ===== */
 #weekly > div {
@@ -99,4 +102,45 @@ section header a:hover span {
 #weekly figure p {
     margin-top: 8px;
     font-weight: 800;
+}
+
+#weekly {
+    grid-area: weekly;
+}
+
+/* ===== IA ===== */
+
+#ia img {
+        width: 170px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+
+#ia h3 {
+        margin-block: 8px 4px;
+    }
+
+#ia {
+    grid-area: ia;
+}
+
+/* ===== ASIDE ===== */
+aside {
+    grid-area: aside;
+}
+
+/* ===== MORE ===== */
+#more {
+    margin-top: 32px;
+}
+
+#more img {
+    width: 90px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+
+#more h3 {
+    margin-top: 8px;
 }
