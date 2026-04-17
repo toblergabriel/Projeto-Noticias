@@ -4,12 +4,12 @@
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
 
 ![Status](https://img.shields.io/badge/status-concluído-brightgreen?style=for-the-badge)
 ![GitHub Pages](https://img.shields.io/badge/deploy-GitHub%20Pages-222?style=for-the-badge&logo=github)
 
-> Portal de notícias de tecnologia com categorias, destaques e layout responsivo — desenvolvido com HTML, CSS e JavaScript puro.
+> Portal de notícias de tecnologia com categorias, destaques e layout responsivo — desenvolvido com HTML e CSS.
 
 **[🌐 Acessar o site](https://toblergabriel.github.io/Projeto-Noticias/)**
 
@@ -32,7 +32,7 @@
 
 ## 💡 Sobre o Projeto
 
-O **TechNews** é um portal de notícias de tecnologia desenvolvido inteiramente com HTML5, CSS3 e JavaScript puro, sem uso de frameworks ou bibliotecas externas. O projeto apresenta um layout moderno com múltiplas seções editoriais, menu de navegação por categorias, barra de busca e destaques organizados por tema.
+O **TechNews** é um portal de notícias de tecnologia desenvolvido inteiramente com HTML5 e CSS3, sem uso de frameworks ou bibliotecas externas. O projeto apresenta um layout moderno com múltiplas seções editoriais, menu de navegação por categorias, barra de busca e destaques organizados por tema.
 
 O site está publicado via **GitHub Pages** e pode ser acessado diretamente pelo navegador.
 
@@ -49,16 +49,6 @@ O site está publicado via **GitHub Pages** e pode ser acessado diretamente pelo
 - [x] Seção **"Viu isso aqui?"** com notícias variadas
 - [x] Layout responsivo para desktop e mobile
 - [x] Assets visuais próprios (logo, ícones SVG, imagens editoriais)
-
----
-
-## 🖼 Layout
-
-> Adicione capturas de tela do projeto aqui. Sugestão: use o [screely.com](https://screely.com) para deixar as imagens mais apresentáveis.
-
-| Desktop | Mobile |
-|--------|--------|
-| ![Desktop](./screenshots/desktop.png) | ![Mobile](./screenshots/mobile.png) |
 
 ---
 
@@ -83,7 +73,6 @@ O portal cobre as seguintes categorias de tecnologia:
 |---|---|
 | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white) | Estrutura e marcação semântica das páginas |
 | ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white) | Estilização, layout responsivo e animações |
-| ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black) | Interatividade, menu mobile e barra de busca |
 | ![GitHub Pages](https://img.shields.io/badge/-GitHub%20Pages-222?logo=github) | Hospedagem e deploy do site |
 
 ---
@@ -126,7 +115,7 @@ Projeto-Noticias/
 │   ├── Logo.svg                # Logotipo TechNews
 │   ├── Ads.png                 # Banner publicitário
 │   ├── icons/
-│   │   ├── List.svg            # Ícone do menu hambúrguer
+│   │   ├── List.svg            # Ícone do menu 
 │   │   └── MagnifyingGlass.svg # Ícone de busca
 │   └── image/
 │       ├── Image 01.png        # Robótica doméstica
@@ -135,8 +124,7 @@ Projeto-Noticias/
 │       └── ...                 # Demais imagens editoriais
 ├── css/
 │   └── style.css               # Estilos globais
-├── js/
-│   └── main.js                 # Scripts de interação
+│
 └── README.md
 ```
 
